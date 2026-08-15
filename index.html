@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="google2f8531025ca5fc44" />
+    <title>100 AI Prompts for Digital Marketing - SEIRYO Digital Excellence</title>
+    <meta name="description" content="Unlock the power of artificial intelligence with 100 AI Prompts for Digital Marketing. SEO, Social Media, Ads, Email & Content Strategy prompts included.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #0f1c3f 0%, #1a2f5a 100%);
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0f1c3f;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 3rem;
+            padding: 4rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 80vh;
+        }
+
+        .hero-content {
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero-content .highlight {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .hero-image {
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(255, 215, 0, 0.2);
+        }
+
+        /* Features Section */
+        .features {
+            background: white;
+            padding: 4rem 2rem;
+        }
+
+        .features-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #0f1c3f;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, #f5f5f5, #ffffff);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid #ffd700;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.2);
+        }
+
+        .feature-card h3 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        /* Breakdown Section */
+        .breakdown {
+            background: linear-gradient(135deg, #0f1c3f 0%, #1a2f5a 100%);
+            padding: 4rem 2rem;
+            color: white;
+        }
+
+        .breakdown-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .breakdown h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .breakdown-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .breakdown-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 2px solid #ffd700;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .breakdown-card .number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffd700;
+            margin-bottom: 0.5rem;
+        }
+
+        .breakdown-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            background: white;
+            padding: 4rem 2rem;
+        }
+
+        .benefits-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .benefits h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #0f1c3f;
+        }
+
+        .benefits-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .benefit-item {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .benefit-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .benefit-content h3 {
+            color: #0f1c3f;
+            margin-bottom: 0.5rem;
+        }
+
+        .benefit-content p {
+            color: #666;
+        }
+
+        /* Bonuses Section */
+        .bonuses {
+            background: linear-gradient(135deg, #0f1c3f 0%, #1a2f5a 100%);
+            padding: 4rem 2rem;
+            color: white;
+        }
+
+        .bonuses-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .bonuses h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .bonuses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .bonus-card {
+            background: rgba(255, 215, 0, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 2px solid #ffd700;
+            text-align: center;
+        }
+
+        .bonus-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .bonus-card h3 {
+            color: #ffd700;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .bonus-card p {
+            color: #e0e0e0;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .cta-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            color: #0f1c3f;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            color: #0f1c3f;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 3rem;
+            background: #0f1c3f;
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: all 0.3s;
+            border: 2px solid #0f1c3f;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button:hover {
+            background: transparent;
+            color: #0f1c3f;
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            background: #0f1c3f;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding: 2rem 1rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .features h2,
+            .breakdown h2,
+            .benefits h2,
+            .bonuses h2,
+            .cta h2 {
+                font-size: 1.8rem;
+            }
+
+            .cta-button {
+                padding: 0.8rem 2rem;
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-content,
+        .feature-card,
+        .breakdown-card,
+        .benefit-item,
+        .bonus-card {
+            animation: fadeInUp 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">SEIRYO</div>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#breakdown">Breakdown</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#bonuses">Bonuses</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>100 <span class="highlight">AI PROMPTS</span> for Digital Marketing</h1>
+            <p>Unlock the power of artificial intelligence with our comprehensive collection of AI prompts designed specifically for digital marketers, entrepreneurs, students, freelancers, and business owners.</p>
+            <p style="margin-bottom: 2.5rem;">Master SEO, social media, advertising, email marketing, and content strategy—all in one practical resource.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="https://seiryan.gumroad.com/l/ifqwy" class="cta-button" style="background: white; color: #0f1c3f; border-color: white;">GET HERE</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Crect fill='%230f1c3f' width='600' height='400'/%3E%3Ctext x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='24' fill='%23ffd700' font-family='Arial'%3E100 AI Prompts Preview%3C/text%3E%3C/svg%3E" alt="100 AI Prompts for Digital Marketing">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="features-container">
+            <h2>What You Get</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🎯 SEO Prompts</h3>
+                    <p>25 expert-crafted prompts to improve search engine rankings, drive organic traffic, and boost visibility online.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 Social Media Prompts</h3>
+                    <p>25 prompts designed to create engaging content and increase audience interaction across all social platforms.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📢 Ads Prompts</h3>
+                    <p>20 Facebook and Instagram advertising prompts to optimize campaigns and maximize ROI on paid campaigns.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>✉️ Email Marketing Prompts</h3>
+                    <p>15 prompts to build high-converting email sequences and engage subscribers effectively.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📝 Content Strategy Prompts</h3>
+                    <p>15 prompts to develop powerful content strategies and create data-driven marketing campaigns.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Save Time & Productivity</h3>
+                    <p>Work faster, achieve better results, and stay ahead in the competitive world of digital marketing with AI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breakdown Section -->
+    <section class="breakdown" id="breakdown">
+        <div class="breakdown-container">
+            <h2>The Complete Package Breakdown</h2>
+            <div class="breakdown-grid">
+                <div class="breakdown-card">
+                    <div class="number">25</div>
+                    <h3>SEO Prompts</h3>
+                    <p>Unlock higher rankings and organic traffic</p>
+                </div>
+                <div class="breakdown-card">
+                    <div class="number">25</div>
+                    <h3>Social Media Prompts</h3>
+                    <p>Boost engagement and audience growth</p>
+                </div>
+                <div class="breakdown-card">
+                    <div class="number">20</div>
+                    <h3>Facebook/Instagram Ads</h3>
+                    <p>Optimize ad campaigns for maximum ROI</p>
+                </div>
+                <div class="breakdown-card">
+                    <div class="number">15</div>
+                    <h3>Email Marketing</h3>
+                    <p>Create high-converting email sequences</p>
+                </div>
+                <div class="breakdown-card">
+                    <div class="number">15</div>
+                    <h3>Content Strategy</h3>
+                    <p>Develop data-driven marketing strategies</p>
+                </div>
+                <div class="breakdown-card">
+                    <div class="number">100+</div>
+                    <h3>Total Resources</h3>
+                    <p>Plus exclusive bonuses and cheat sheets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="benefits-container">
+            <h2>Why Choose This Collection?</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <div class="benefit-icon">⚡</div>
+                    <div class="benefit-content">
+                        <h3>Save Time</h3>
+                        <p>Cut your marketing workflow time in half with ready-to-use AI prompts that generate professional results instantly.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">📈</div>
+                    <div class="benefit-content">
+                        <h3>Boost Productivity</h3>
+                        <p>Automate repetitive tasks and focus on strategy while AI handles content generation and optimization.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🎯</div>
+                    <div class="benefit-content">
+                        <h3>Drive Results</h3>
+                        <p>Increase traffic, engagement, conversions, and sales with data-driven, actionable marketing prompts.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🚀</div>
+                    <div class="benefit-content">
+                        <h3>Stay Competitive</h3>
+                        <p>Leverage AI technology to stay ahead of competitors and dominate your market with smarter campaigns.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">💡</div>
+                    <div class="benefit-content">
+                        <h3>Expert Guidance</h3>
+                        <p>Access carefully crafted prompts designed by marketing professionals who understand real-world challenges.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✅</div>
+                    <div class="benefit-content">
+                        <h3>Beginner Friendly</h3>
+                        <p>Perfect for beginners and experienced marketers alike. No technical knowledge required to get started.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonuses Section -->
+    <section class="bonuses" id="bonuses">
+        <div class="bonuses-container">
+            <h2>🎁 Exclusive Bonuses Included</h2>
+            <div class="bonuses-grid">
+                <div class="bonus-card">
+                    <div class="bonus-icon">🔍</div>
+                    <h3>Bonus 1</h3>
+                    <p><strong>30 AI Prompts for Keyword Research</strong><br>Advanced techniques to discover high-value keywords that drive traffic.</p>
+                </div>
+                <div class="bonus-card">
+                    <div class="bonus-icon">🛒</div>
+                    <h3>Bonus 2</h3>
+                    <p><strong>20 Prompts for Writing High-Converting Product Descriptions</strong><br>Turn browsers into buyers with compelling product copy.</p>
+                </div>
+                <div class="bonus-card">
+                    <div class="bonus-icon">📋</div>
+                    <h3>Bonus 3</h3>
+                    <p><strong>Digital Marketing AI Workflow Cheat Sheet</strong><br>Quick reference guide for your daily marketing operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-container">
+            <h2>Ready to Transform Your Digital Marketing?</h2>
+            <p>Join thousands of marketers, entrepreneurs, and business owners who are already using AI to work smarter, faster, and more efficiently.</p>
+            <a href="https://seiryan.gumroad.com/l/ifqwy" class="cta-button">GET HERE NOW</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SEIRYO Digital Excellence. All rights reserved. | Transform Your Marketing with AI</p>
+    </footer>
+</body>
+</html>
